@@ -1,0 +1,44 @@
+Task Steps:
+
+1. Research and gather information
+2. Take brief notes
+3. Create your own definition
+
+Step 1 - gather two or more definitions
+
+"It's when we hunt information, using the application, its interfaces and all existing information 
+as our external imagination to go even deeper in empirical understanding of what is true and what is 
+an illusion. It involves a person or multiple people, using programming to get to places in time, but 
+it is all framed in this quest of someone learning what more we could try knowing.” 
+— Maaret Pyhäjärvi 
+
+and
+
+“Comparing models of system with observed interactions of the system for the purpose of evaluating the 
+comparison and refining the model”
+— Alan Richardson
+
+Step 2 - take notes to identify similarities and differences, with themes and my preferences
+
+Maaret's definition focuses on exploration, while Alan's focuses on comparison. 
+
+Maaret's is good for looking at new systems and exploring unknown unknowns.
+I like that she talks about what is true and what is an illusion, as though our personal biases 
+and assumptions are potential illusions.
+Also like that she describes it as a quest, which is a cool reminder of Jenna's Test Charter talk about
+Testing Treasure Maps. 
+Makes it sound more fun than just evaluation of a piece of software.
+
+Alan's is good for when you have a basis or personal experience to compare against.
+He talks about the models as our expectations (or illusions from Maaret's definition) and comparing it
+against the actual measurable behavior of a system in order to evaluate that system.
+You don't necessarily need to have experienced everything about software to use this model.
+You just need to have a clear expectation in mind to analyze against.
+This definition is more clinical, but infers a level of competence to know what to look for.
+This is a better definition for contexts where there are known unknowns.
+
+Step 3 - my definition
+
+Software testing is a process of determining knowns and unknowns. 
+Once those pieces of information are determined, that knowledge is shared with the appropriate recipients 
+to shape a picture of the qualities of the system under test.

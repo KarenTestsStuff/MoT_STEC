@@ -1,0 +1,18 @@
+Review what you've learned
+
+What are the key responsibilities of a solo tester in a small team?
+Helps to be highly adaptable with multiple test types.
+Often coaching on quality practices to multiple teams.
+One person can be liason to multiple teams.
+Often manage entire quality strategy.
+
+How does being part of an cross-functional team change the tester's role?
+Requires close real time collaboration for continuous testing.
+More of a focus on Shift Left.
+Often found in Agile team.
+**Although I personally have had experiences where I was integrated but still had
+to operate within a testing-last almost waterfall approach.
+
+When might an organisation use crowd testing?
+To ask security specialists to test their resilience against cyber attacks (black 
+box) or monitor application performance (white box).
