@@ -1,0 +1,37 @@
+Scenario 1: Investigating a Bug Report
+You receive a bug report from a customer describing an issue with a login feature. The report lacks detailed steps to reproduce the problem. You need to figure out the exact steps to recreate the bug and provide a clear report to the development team.
+Scenario 2: Collaborating on a New Feature
+Your team is building a new feature, and you’re attending a meeting with developers and the product manager. It’s your job to understand the requirements, ask relevant questions, and think about potential risks associated with the new feature.
+Scenario 3: Conducting Exploratory Testing
+You’ve been asked to perform exploratory testing on a new release. The goal is to find issues that may not be covered by pre-existing test cases, so you need to come up with different ways to test the feature.
+Scenario 4: Prioritising Bugs for a Release
+There are multiple bugs in the system, but not all of them can be fixed before the next release. You need to analyse the impact and severity of each bug and collaborate with the team to decide which ones to address.
+
+Attribute traits and skills to each scenario:
+For each scenario, think about which skills and traits would be most valuable and explain why they are important. Use the list below for reference:
+Inquisitiveness
+Critical Thinking
+Attention to Detail
+Communication
+Problem-Solving
+Collaboration
+Time Management and Organisation
+Adaptability
+Spotting Patterns
+Analytical Skills
+
+1. Investigating a bug report
+    Skills/Traits: understanding, critical thinking, Communication
+    Explanation: Understanding the system architecture can help assess the steps needed to reproduce the bug, because you already have the knowledge of how the system works (or should work). Critical thinking can help translate those steps to reproduce into a clear picture of where the bug is coming from. Communication and people skills assist in relying the message to the team in a judgement-free and objective manner.
+
+2. Collaborating on a new feature
+    Skills/Traits: inquisitiveness, communication, understanding, spotting Patterns
+    Explanation: Inquisitiveness to help clarify assumptions among the team and understand what the requirements cover. Communication skills to work with the other members of the team and convey your thoughts about the process and ask questions. Understanding the system architecture to intuitively assess areas of the system that the new feature will touch and possibly affect. And spotting patterns from other feature risks that may affect this new feature moving forward. 
+
+3. Conducting exploratory testing
+    Skills/Traits: Inquisitiveness, time management and organization, adaptability, attention to detail, analytical skills
+    Explanation: Inquisitiveness about the new release starts with questions to be answered by the exploration. As each question is answered, new questions appear. Because of this, time management plays a big role because we never have infinite amounts of time or resources to test with. Adaptability is essential, especially if you find something unexpected and must pivot the goal of your exploration as you go. Attention to detail is important as you should document your process as you go and be analytical of what you find. 
+
+4. Prioritising bugs for a release
+    Skills/Traits: Influencing, analytical skills, understanding, communication, collaboration, time management
+    Explanation: Influencing other people about the impact or risk of a bug is a good skill to have when prioritising bugs. It requires analytical skills to assess the impacts, and understanding the system architecture to know the risks associated. Time management is important because there is not enough time to fix them all, so they should be focused on the most impactful work. Then communication is important to foster the collaboration needed to fix the bugs that are deemed priority.
