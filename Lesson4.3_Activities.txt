@@ -1,0 +1,78 @@
+4.3.1
+
+Task: Based on your instincts, think about testing the below login form with two input fields (username and password). Without any structured approach, list potential issues you might find.
+
+Timebox yourself between 10 and 30 minutes.
+For each finding, record why it may be a problem in the table below, what could happen, and what might be the outcome.
+
+1. Entering an email or password alone without the other
+    - System might (or should) require both together, but it is not specified in the form
+    - User cannot log in and may see an error
+2. Entering an email with an incorrect password
+    - System will not allow the login
+    - User cannot log in and should see a specific error as to why
+3. Entering an email that does not exist in the System
+    - System will not allow the login
+    - User could be redirected to create an account instead
+4. User enters valid already registered email and password, but clicks create an account instead
+    - System might create a duplicate account
+    - Could cause errors in logins or just show an error
+5. User enters username without email domain present
+    - System will not accept an input that is not an email address
+    - User cannot log in and may see an error
+
+---
+
+4.3.2
+Video
+
+---
+
+4.3.3
+
+Task: Retest the same login form using professional testing approaches and techniques you learned from the previous lesson.
+Step 1 and 2: Preparation and conducting "testing" to record findings
+● List the techniques, heuristics, or mnemonics you plan to use in the table.
+● Plan how you will apply them to the login form.
+● For each finding, record why it may be a problem in the table below, what could happen, and what might be the outcome.
+
+1. Accessibility with keyboard navigation
+    - After loading the page, use only the keyboard to navigate to and between inputs and submit the form
+    - if the DOM is not formatted correctly, some inputs or options may be out of order or completely inaccessible by tabbing through the page
+    - if the user only has a keyboard, or uses a screen reader to navigate the page, they will be unable to complete the form
+
+2. Multiple Browser Instances Open
+    - Open a Chrome browser and a Firefox browser. Log in within Chrome while the login page is open in Firefox. Navigate to the dashboard in Firefox while logged into the Chrome browser
+    - if the token does not exist in Firefox, it may tell the user they are not logged in
+    - The user may not be able to use Firefox, only the Chrome browser
+
+3. Single Space at end of email
+    - Leave a single space after the end of a valid registered email, input correct password, and attempt to submit
+    - If the input is not sanitized of white space, the input may be submitted with the trailing space
+    - The user may be told their email or password is not accepted
+
+4. Common Delimiters and Special Characters: an apostrophy in a business email
+    - Use an email like Karen's_Tests@gmail.com and valid password
+    - Some input fields do not allow common special characters, even though it may be a fully valid email address
+    - This user would not be able to create an account or log in, hindering access to the application
+
+5. Accented Chars
+    - Use an email with an accented letter in a person's name for their email username on a non-English qwerty keyboard
+    - Some input fields do not allow common non-English characters, even though it may be a fully valid email address
+    - This user would not be able to register or log in, hindering access to the application
+
+---
+
+Reflect:
+
+How do you feel about the outcomes of structured testing compared to intuitive testing?
+    Intuitive testing relies on a personal experience to know what to test for. Structured testing can incorporate other views and heuristics to form a more complete picture of the capabilities and risks
+
+How did preparation influence your focus and effectiveness during testing?
+    I was similarly focused for both exercises, although I might have found more testing opportunities using the Cheat Sheet more quickly than trying to sort through my brain on my own
+
+Which structured techniques did you find most valuable, and why?
+    I don't know, I had to speculate because there wasn't an actual application to test. Without knowing what is actually happening during the testing, I cannot answer this silly question for real
+
+What would you do differently next time to improve your testing process?
+    Test an actual login flow, instead of a static photo of a login screen
