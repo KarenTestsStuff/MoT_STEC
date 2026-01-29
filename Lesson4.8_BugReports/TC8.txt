@@ -1,0 +1,8 @@
+Title - Expand/collapse carat marks all items as completed, instead of collapsing the list
+    Expected - The carat should not interact with the completeness of the items, only collapse and expand the list
+    Reality - Selecting the carat marks all tasks as completed, and only then can the user expand or collapse the list
+    Notes - When I clicked the arrow dropdown when only showing "Another todo" completed in the list,
+            it automatically marked all todos as completed and showed all in the filtered list
+            This also appears to happen when on the "All" filter and having one item marked completed
+            The arrow appears to mark all as completed, upon first selection, then selects all as incomplete on second selection
+    Screenshots - no screenshots

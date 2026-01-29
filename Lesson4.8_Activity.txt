@@ -1,0 +1,64 @@
+Applying testing techniques: Hands-on webpage testing
+
+https://todolist.james.am/#/
+A todo app built like The Evil Tester's application
+Timebox - 30 minutes
+List 5-10 potential tests to stay focused:
+    1. Add a todo
+        I expect the todo to be added to the list, and the counter to increase by one
+        Finding: Todo is added to the list, but counter shows 0 items left
+            Found this in Sources > js > controllers > todoCtrl.js:
+            $scope.$watch('todos', function () {
+			$scope.remainingCount = $filter('filter')(todos, { completed: false }).length -1
+            The length -1 means that the list count will always be 1 item short of real count
+        Bug logged TC1.txt
+            
+    2. Mark a finished todo complete
+        I expect the todo to be checked off, marked through, and greyed out
+        Finding: Clicking the circle to the left of the todo marks it as completed (checked off, marked through, and greyed out)
+            Selecting the "Completed" filtering button shows only this todo
+
+    3. Delete a todo
+        I expect a completed todo will be deleted when I select "Clear" button, and the counter should decrease by one
+        Finding: Selected "Another todo" as completed, then clicked Clear
+            "Another todo" was deleted
+            As another example, clicked the "X" to the right of a todo that was not completed
+                Todo was deleted
+
+    4. Edit a todo
+        I expect that double clicking an active todo will allow me to edit and save it
+        Finding: Double clicking an active todo allows edits.
+            Deselecting the field saves the newly edited todo
+
+    5. Keyboard navigation
+        I expect the application to be accessible by using keyboard functionality only, tabbing through the options
+        Finding: Keyboard only navigation only shows focus on the entry field
+            Cursor gets lost on the page after moving away from entry field
+            Individual todos cannot be interacted with, only the filters
+        Bug logged TC5.txt
+    
+    6. Filtering multiple todos in multiple stages of completeness
+        I expect that with two active todos, and two marked completed todos, when I toggle between the filters the correct todos and counts will be displayed
+        Finding: The correct todos are displayed, the counters are still off by 1
+        See bug logged TC1.txt for counts
+
+    7. Clearing the list when no todos are marked completed
+        I expect that no todos will be removed, because they are still active when I select "Clear" button
+        Finding: No todos are removed
+
+    8. Collapsing the list with active todos 
+        I expect the counter to remain constant, even if the list is collapsed with active todos
+        Finding: When I clicked the arrow dropdown when only showing "Another todo" completed in the list,
+            it automatically marked all todos as completed and showed all in the filtered list
+            This also appears to happen when on the "All" filter and having one item marked completed
+            The arrow appears to mark all as completed, upon first selection, then selects all as incomplete on second selection
+            When all items are marked completed, the counter shows "-1 items left"
+
+    ADDITIONAL NOTES from testing:
+    Spelling error in prompt - "Need's"
+    Spelling error in footer "toodo"
+    Double clicking a completed todo also allows edits and saves when defocusing the field
+    Deleting all items in the list using X causes the prompt in the entry field to disappear
+        Refreshing the page renews the prompt text
+    
+    Bugs:

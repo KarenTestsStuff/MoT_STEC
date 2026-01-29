@@ -1,0 +1,5 @@
+Title - Keyboard navigation is hidden when tabbing through the page
+    Expected - The web application should show where the current focus of the interaction is on the page, when navigating by keyboard only
+    Reality - Once the user tabs through to the main application, the focus is lost and nothing on the page is highlighted to be interacted with
+    Notes - The cursor does eventually find its way back to the top of the page and recycles through the non-focused options
+    Screenshots - No screenshot

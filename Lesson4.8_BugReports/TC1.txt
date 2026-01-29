@@ -1,0 +1,9 @@
+Title - When adding a todo, the counter does not display the correct length
+    Expected - The counter should show the correct number of todo's in the list.
+    Reality - The counter is off count by -1.
+    Notes - One todo is added to the list, but counter shows 0 items left
+        Found this in Sources > js > controllers > todoCtrl.js:
+        $scope.$watch('todos', function () {
+        $scope.remainingCount = $filter('filter')(todos, { completed: false }).length -1
+        The length -1 means that the list count will always be 1 item short of real count
+    Screenshots - Attached in parent folder (TC1 and TC1b)
