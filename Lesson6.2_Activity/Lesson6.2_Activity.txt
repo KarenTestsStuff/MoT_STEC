@@ -1,0 +1,27 @@
+What are three key questions to uncover risks in this project?
+
+1. Review the project background document:
+    Listed risks and questions in tablet
+2. Explore the Bling-R-Us website
+    Listed behaviors, features, and gaps in tablet
+3. Develop three questions
+    a. What is the current market before expanding internationally?
+        - I don't see a way to remove my data from storage, because there is no profile settings or account management 
+        from a customer's perspective
+        - Is GDPR for companies different for that of individuals, like how VAT requirements are treated?
+    b. How can we standardize the inconsistencies in the complex pricing model to be correct with the requirements 
+    document and reduce the number of billing complaints?
+        - FAQ is hard to read, which may open opportunities for higher rate of complaints, and the complaint process is 
+        also not clear
+    c. Where and when is the invoice sent?
+        - Upon completion of the order, I was not given an order number to reference and the invoice never came to my 
+        email address
+4. Document your questions and rationale
+    a. There is a risk to being non-compliant with GDPR regulations, depending on where the current market resides. It 
+    would help the team to comply with legal requirements and not get a fine.
+    b. The pricing model and explaination of the model in the FAQ is inconsistent with the requirements document in 
+    multiple places. This could cause customers to open more complaints, and the complaints procedure is also hard to follow 
+    from a customer point of view. There is a risk of losing new and existing loyal customers which is a business risk to the client.
+    c. In the FAQ, it states an order number (not an order date, like the requirements state) is required for defects. If 
+    no invoice is generated and given to the customer, how can they find this information? It is not displayed on completion 
+    of the order either. This would help the team close the communication gap and keep customers happy.
