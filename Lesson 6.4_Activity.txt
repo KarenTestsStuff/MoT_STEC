@@ -1,0 +1,19 @@
+Activity: Reflect on how you can apply these techniques in your own projects. 
+What questions could you ask, and what tools or strategies might 
+help you identify risks effectively?
+
+Question the requirements:
+- make sure assumptions are noted and cleared
+- all team members from technical and business team are on same page
+- everyone working towards the same goals
+
+Question from different user ability levels:
+- elderly
+- differently abled or assistive technology
+- technologically savvy
+Frustrations from one group might be easy for another, and vice versa
+
+Questions from skill gaps in the team
+- do we have the right expertise to understand and test for all scenarios?
+- can we pull in an expert from another team?
+- are there community resources available to us?
