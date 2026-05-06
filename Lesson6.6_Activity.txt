@@ -1,0 +1,28 @@
+Prioritise the following list of risks
+
+Payment timeouts 
+Reputational damage 
+Data breach
+Incorrect payment splits
+Fraudulent transactions
+Integration failures
+User authentication failures
+Insufficient scalability
+Lack of compliance
+Dispute resolution Issues
+
+From legal and compliance perspective:
+Lack of compliance
+Data breach
+User authentication failures
+Fraudulent transactions
+
+From marketing and business perspective:
+Reputational damage 
+Dispute resolution Issues
+Insufficient scalability
+
+From technical team perspective:
+Integration failures
+Payment timeouts
+Incorrect payment splits

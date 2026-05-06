@@ -1,0 +1,21 @@
+The PDF form is impossible to render the text into what will fit in the fields, so I will enter the data here:
+
+Description:
+Payment timeouts - A timeout occurs when a user is completing a payment with American Express
+
+Likelihood:
+The risk is only likely to occur if a user tries to complete a payment with American Express. If this is a worldwide payment system, it is less likely to occur as often as with Mastercard or Visa
+
+Impact:
+A user who only has American Express as a payment option cannot complete their order
+
+Mitigation:
+If we want to accept American Express payment option, we need to deal with this by correcting the timeout issue.
+If we do not want to accept American Express, we should add a validation method to prevent a user from being able to enter this type of card information at checkout, and make it clear that AE is not an acceptable form of payment
+
+Owner:
+At this time it is up to the business to determine if American Express is an acceptable form of payment
+
+Contingency:
+While we wait for an answer, make a note in a tooltip that American Express cannot be used to complete a payment at this time
+
