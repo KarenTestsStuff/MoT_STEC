@@ -1,0 +1,5 @@
+In your own words, describe what systems thinking is and how it helps you view a system as a whole.
+
+When I think of systems thinking, I imagine an architecture drawing of the application or SUT lined out like a wireframe.
+In my mind, I visualize components with interactive lines drawn through the flow from end to end, including integrations.
+With this kind of visualization, it is possible to see a high level view of complexities, as well as drilling down into the details if that becomes necessary.

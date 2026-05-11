@@ -1,0 +1,15 @@
+Pick a system: Choose a system you’re familiar with, e.g. a website, 
+mobile application or even a face to face process like ordering food at a restaurant.
+ - Evil Tester's Todo App: https://eviltester.github.io/simpletodolist/todolists.html
+
+Formulate key questions: Write down 3-5 questions that will help you understand how the system works.
+ - Are there pre-existing documents available about the system interactions?
+ - What happens to the data if I leave the application and return after 5 minutes?
+ - Is there an API call on submission, or is the data stored locally?
+ - Is there a different flow when logged in as an Admin vs. a regular user?
+
+Reflect on your questions – Would different people (e.g., developers, product managers) provide different answers? 
+How could system exploration and asking questions of the system validate what they say?
+ - If different people provide different answers, perhaps showing them all the same model will help to clarify assumptions and identify gaps in understanding.
+ - I could ask different roles to provide me with a sample customer journey to follow in the form of an exploratory tour through the system.
+

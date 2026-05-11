@@ -1,0 +1,30 @@
+You are a software tester on a team developing a new e-commerce platform. 
+During testing, you discover a security vulnerability that could potentially expose customer data.
+
+For the above scenario complete the following actions; 
+
+1. List the relevant stakeholders who need to hear this information (developers, product owners etc.) 
+2. List all the relevant risks you think apply 
+3. Set a priority for the bug (use one of the techniques in the module) 
+4. Draft an email to communicate your findings to the stakeholder list in action 1. 
+    Remember that they may have different views and priorities so make sure you cover them all. 
+
+1. development team (developers, other test roles, system architect, security team members), 
+    business roles (product owner, business analyst, leadership)
+2. risk to business confidence, reputation, trust, and private customer data including financial information
+3. high impact, high likelyhood
+4a. Development team members,
+    I have determined there is a security vulnerability within the feature we are working on. 
+    If we release to production without mitigation, we could expose customer data to bad actors who will take advantage of the leak.
+    I recommend we take (these steps) before release to production, or limit the availability of the new feature until we lock down the vulnerability.
+    See attached recording for steps to reproduce and view the vulnerability opportunity.
+    Reach out to me if you need additional clarification or data used for testing to help step through the vulnerability.
+
+4b. Business roles,
+    During testing (new feature) following the attached screen recording process, I determined there is a security vulnerability that effects (these customer groups).
+    The likelihood of this vulnerability being exploited depends upon the opportunistic nature of a bad actor working within our system.
+    If exploited, the breach would expose (these assets of customer data) to a leak.
+    Due to our compliance requirements within an e commerce website, we must take steps to mitigate this risk before pushing the changes to production.
+    Failure to mitigate this vulnerability risks damage to the business reputation and confidence in the company, fines for lack of security compliance, as well as damage to the customer when their financial information is exposed.
+    I have recommended mitigation steps to the development team, and we anticipate locking this down before EOB today.
+    
