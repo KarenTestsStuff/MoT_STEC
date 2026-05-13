@@ -1,0 +1,8 @@
+https://eviltester.github.io/simpletodolist/todolists.html
+
+Reflect on the visualization of the system
+- It was pretty easy, I like mind maps. Used XMind and exported an image to this folder
+
+Create using a second tool and compare results
+- Also pretty easy to create a user journey flow in Miro. Exported the image to this folder
+- I think the user journey is more useful, since I didn't have requirements to compare to in the mind map
